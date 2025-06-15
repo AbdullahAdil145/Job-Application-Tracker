@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  padding: 0;
+  margin: 0;
+  background-color: #e7f4fb;
+  color: black;
+}
+
+.header {
+  background-color: #1565c0;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.header .icon {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+form {
+  padding: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 6px;
+  margin-top: 3px;
+  margin-bottom: 8px;
+  border: 1px solid #1e88e5;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.pay-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.pay-group {
+  flex: 1;
+}
+
+button {
+  display: block;
+  width: 100%;
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+button:hover {
+  background-color: #0097a7;
+}
+
+#status {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 13px;
+}

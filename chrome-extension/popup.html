@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stealthy Job Tracker</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="header">
+    <div class="icon">🕵️</div>
+    <h1>Stealthy Job Tracker</h1>
+  </div>
+
+  <form id="jobForm">
+    <label for="form_url">Form URL</label>
+    <input type="text" id="form_url" name="form_url" />
+
+    <label for="company">Company Name</label>
+    <input type="text" id="company" name="company" />
+
+    <label for="title">Job Title</label>
+    <input type="text" id="title" name="title" />
+
+    <label for="date">Date Posted</label>
+    <input type="date" id="date" name="date" />
+
+    <div class="pay-row">
+      <div class="pay-group">
+        <label for="pay_min">Pay Range</label>
+        <input type="text" id="pay_min" name="pay_min" placeholder="$ min" />
+      </div>
+      <div class="pay-group">
+  <label style="visibility: hidden;">Placeholder</label>
+  <input type="text" id="pay_max" name="pay_max" placeholder="$ max" />
+</div>
+
+    </div>
+
+    <button type="submit">Save Application</button>
+    <div id="status"></div>
+  </form>
+
+  <script src="popup.js"></script>
+</body>
+</html>
