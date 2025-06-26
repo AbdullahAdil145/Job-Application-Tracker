@@ -1,7 +1,7 @@
-# Stealthy Job Tracker
+Job Tracker
 
 
-**Stealthy Job Tracker** is a full-stack application with a Chrome Extension and a web dashboard that helps users track job applications effortlessly. It allows users to save job posts directly from their browser and later view, modify, filter, and analyze them through a dashboard.
+**Job Tracker** is a full-stack application with a Chrome Extension and a web dashboard that helps users track job applications effortlessly. It allows users to save job posts directly from their browser and later view, modify, filter, and analyze them through a dashboard.
 
 
 # What Was Built:
